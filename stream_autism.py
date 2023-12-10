@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 # Muat model pertama
 with open('modelgnb.pkl', 'rb') as file:
