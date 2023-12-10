@@ -35,7 +35,7 @@ if A2_Score_input in ['Kurang setuju', 'Tidak setuju']:
 else:
     A2_Score = 0
 # Menampilkan nilai A2_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A2_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A2_Score: {A2_Score}</h2>", unsafe_allow_html=True)
 
 A3_Score_input = st.selectbox('Apakah pasien mampu melakukan lebih dari satu pekerjaan?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A3_Score
@@ -44,7 +44,7 @@ if A3_Score_input in ['Kurang setuju', 'Tidak setuju']:
 else:
     A3_Score = 0
 # Menampilkan nilai A3_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A3_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A3_Score: {A3_Score}</h2>", unsafe_allow_html=True)
 
 A4_Score_input = st.selectbox('Apakah pasien dapat dengan cepat beralih kembali ke pekerjaan/ tugas setelah menghadapi suatu gangguan?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A4_Score
@@ -53,7 +53,7 @@ if A4_Score_input in ['Kurang setuju', 'Tidak setuju']:
 else:
     A4_Score = 0
 # Menampilkan nilai A4_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A4_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A4_Score: {A4_Score}</h2>", unsafe_allow_html=True)
 
 A5_Score_input = st.selectbox('Ketika melakukan percakapan, apakah pasien paham apa yang dikatakan orang lain?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A5_Score
@@ -62,7 +62,7 @@ if A5_Score_input in ['Kurang setuju', 'Tidak setuju']:
 else:
     A5_Score = 0
 # Menampilkan nilai A5_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A5_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A5_Score: {A5_Score}</h2>", unsafe_allow_html=True)
 
 A6_Score_input = st.selectbox('Ketika sedang berbicara, apakah pasien dapat mengetahui jika lawan bicara sudah mulai bosan mendengarkannya?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A6_Score
@@ -71,7 +71,7 @@ if A6_Score_input in ['Kurang setuju', 'Tidak setuju']:
 else:
     A6_Score = 0
 # Menampilkan nilai A6_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A6_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A6_Score: {A6_Score}</h2>", unsafe_allow_html=True)
 
 A7_Score_input = st.selectbox('Apakah pasien kesulitan untuk memahami suatu karakter dalam sebuah cerita?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A7_Score
@@ -80,7 +80,7 @@ if A7_Score_input in ['Sangat setuju', 'Setuju']:
 else:
     A7_Score = 0
 # Menampilkan nilai A7_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A7_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A7_Score: {A7_Score}</h2>", unsafe_allow_html=True)
 
 A8_Score_input = st.selectbox('Apakah pasien tertarik untuk mengumpulkan informasi tentang kategori benda?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A8_Score
@@ -89,7 +89,7 @@ if A8_Score_input in ['Sangat setuju', 'Setuju']:
 else:
     A8_Score = 0
 # Menampilkan nilai A8_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A8_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A8_Score: {A8_Score}</h2>", unsafe_allow_html=True)
 
 A9_Score_input = st.selectbox('Apakah pasien paham dengan bahasa gerak tubuh atau ekspresi yang dilakukan oleh orang lain?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A9_Score
@@ -98,7 +98,7 @@ if A9_Score_input in ['Kurang setuju', 'Tidak setuju']:
 else:
     A9_Score = 0
 # Menampilkan nilai A9_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A9_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A9_Score: {A9_Score}</h2>", unsafe_allow_html=True)
 
 A10_Score_input = st.selectbox('Apakah pasien mengalami kesulitan ketika membantu permasalahan orang lain?', ['Sangat setuju', 'Setuju', 'Kurang setuju', 'Tidak setuju'])
 # Menggunakan if-else untuk mengubah nilai A10_Score
@@ -107,7 +107,7 @@ if A10_Score_input in ['Sangat setuju', 'Setuju']:
 else:
     A10_Score = 0
 # Menampilkan nilai A10_Score
-st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A1_Score: {A10_Score}</h2>", unsafe_allow_html=True)
+st.markdown(f"<h2 style='font-size: 10px; text-align: right;'>Nilai A10_Score: {A10_Score}</h2>", unsafe_allow_html=True)
 
 # Menghitung total skor
 total_score = A1_Score + A2_Score + A3_Score + A4_Score + A5_Score + A6_Score + A7_Score + A8_Score + A9_Score + A10_Score
